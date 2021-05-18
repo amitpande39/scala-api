@@ -1,0 +1,23 @@
+{
+  "name": "scalapay-api",
+  "version": "1.0.0",
+  "description": "validate scala pay api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run create:env && jest",
+    "test:sandbox": "cross-env TEST_ENV=sandbox npm test",
+    "create:env": "node ./utils/create-env.js"
+  },
+  "author": "Amit Pande",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "chalk": "^4.1.1",
+    "cross-env": "^7.0.3",
+    "dotenv-safe": "^8.2.0",
+    "fs": "0.0.1-security",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "supertest": "^6.1.3"
+  }
+}

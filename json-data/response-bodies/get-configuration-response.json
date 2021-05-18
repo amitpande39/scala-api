@@ -1,0 +1,9 @@
+{
+    "type": "PAY_BY_INSTALLMENT",
+    "minimumAmount" : "4.00",
+    "maximumAmount" : "1000.00",
+    "currency" : "EUR",
+    "numberOfPayments" : 3,
+    "promotionURL" : "https://promotion.scalapay.it/popup/600/",
+    "description" : "'Pay over time'" 
+}
