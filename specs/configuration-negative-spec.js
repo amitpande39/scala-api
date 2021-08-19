@@ -6,7 +6,7 @@ let response;
 const request = supertest(process.env.BASE_URL);
 const authToken = process.env.INVALID_TOKEN;
 
-describe('Negative Specs :GET: V2 Configuration', () => {
+xdescribe('Negative Specs :GET: V2 Configuration', () => {
     beforeAll(async () => {
         authHeaderGeneric = await baseLibrary.authHeaderGeneric();
         response = await request.get('/v2/configurations')
